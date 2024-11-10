@@ -16,7 +16,7 @@ use Inertia\Inertia;
 
 Route::get('/', function () {
     sleep(2);
-    return Inertia::render('Auth/Login');
+    return Inertia::render('FrontPages/LandingPage');
 })->name('login');
 
 

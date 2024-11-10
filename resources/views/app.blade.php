@@ -17,15 +17,10 @@
     @inertiaHead
 </head>
 <body class="font-sans bg-custom-radial">
-
     @inertia
 </body>
 </html>
 <style>
-    .bg-custom-radial {
-        background: radial-gradient(125% 125% at 50% 10%, #fff 40%, rgb(0, 153, 255) 100%);
-    }
-
     .montserrat-black-900 {
         font-family: "Montserrat", sans-serif;
         font-weight: 900;
